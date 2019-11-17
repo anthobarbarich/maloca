@@ -1,3 +1,8 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://malocarecords.com"
+languageCode = "en-US"
+title = "MALOCA Records"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    description = "Record label from Belgium"
+    author = "Studio Colibri"

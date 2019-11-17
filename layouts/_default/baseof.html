@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>MALOCA</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+
+<body>
+	<div id="video-wrapper"></div>
+	<script>
+// VIDEO BG
+var launchVideo = function() {
+  var videlem = document.createElement("video"),
+  sourceMP4 = document.createElement("source"),
+  supportsVideoElement = !!document.createElement('video').canPlayType,
+  temp = document.createElement('video'),
+  canPlay_MP4 = temp.canPlayType('video/mp4; codecs="avc1.42E01E,mp4a.40.2"'),
+  //canPlay_WEMB = temp.canPlayType('video/webm; codecs="vp8,vorbis"'),
+  videoWrapper = document.getElementById('video-wrapper');
+  if (supportsVideoElement && canPlay_MP4) {
+    videlem.id = "video-bg";    
+    sourceMP4.type = "video/mp4";
+    sourceMP4.src = "/assets/maloca.mp4";
+    videlem.appendChild(sourceMP4);
+    videlem.preload = true;
+    videlem.autoplay = true;
+    videlem.muted = true;
+    videlem.loop = true;
+    videlem.setAttribute('playsinline', '');
+    videoWrapper.appendChild(videlem);
+    console.log('launchvideo');
+  }
+}
+// INIT 
+window.onload = function() {
+      launchVideo();
+}
+</script> 
+</body>
+</html>

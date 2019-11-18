@@ -6,8 +6,8 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
-<body>
-	<div id="video-wrapper"></div>
+<body class="body">
+
 	
 	<main>{{ block "main" . }}{{ end }}</main>
 	<script>
@@ -23,7 +23,7 @@ var launchVideo = function() {
   if (supportsVideoElement && canPlay_MP4) {
     videlem.id = "video-bg";    
     sourceMP4.type = "video/mp4";
-    sourceMP4.src = "/assets/maloca.mp4";
+    sourceMP4.src = "/assets/maloca-square.mp4";
     videlem.appendChild(sourceMP4);
     videlem.preload = true;
     videlem.autoplay = true;

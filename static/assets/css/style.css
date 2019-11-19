@@ -4,6 +4,58 @@
     font-weight: normal;
     font-style: normal;
 }
+/*3D PARA*/
+body {
+  color: #181818;
+  font-family: monospace, monospace;
+  font-size: 10em
+}
+
+.parallax-base div {
+  opacity: 1;
+  /* background: red; */
+  width:100%;
+}
+
+.parallax-container {
+  position: absolute; 
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000px;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (min-width:460px)
+{
+  .parallax-base div {
+    top: 10px;
+  }
+}
+
+.parallax-base {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 880px;
+}
+
+.layer-1 {
+  position: absolute;
+  -webkit-transform: translateZ(25px);
+  -moz-transform: translateZ(25px);
+}
+
+.layer-2 {
+  position: absolute;
+  -webkit-transform: translateZ(80px);
+  -moz-transform: translateZ(80px);
+}
+
+.layer-3 {
+  position: absolute;
+  -webkit-transform: translateZ(150px);
+  -moz-transform: translateZ(150px);
+}
 
 @charset "UTF-8";
 html, body, div, span, applet, object, iframe,
@@ -31,11 +83,14 @@ html {
 	font-size: 100%;
 	overflow: hidden;
 }
-
+video{
+width: 100%;
+/* opacity: 0.6; */
+}
 
 body {
 	background: black;
-	color: white;
+	color: black;
 	font-family: monument;
 	text-align: center;
 }
@@ -54,7 +109,7 @@ a {
 }
 
 #video-wrapper video {
-	height: 100vh;
+	height: 80vh;
 	max-width: 100%}
 
 

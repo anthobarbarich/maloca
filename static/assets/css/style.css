@@ -36,6 +36,8 @@ body {
 	color: white;
 	font-family: monument;
 	text-align: center;
+	text-transform: uppercase;
+	font-size: 1rem;
 }
 
 a {
@@ -45,7 +47,6 @@ a {
   color: #fff;
   text-decoration: none;
 }
-
 
 /*3D PARA*/
 
@@ -288,6 +289,17 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
 }
+.header p {
+	margin-top: 10px;
+		-webkit-text-stroke: 0.5px white;
+	color: rgba(0,0,0,0.00);
+}
+
+.header p span {
+	margin-top: 10px;
+		-webkit-text-stroke: 0.5px white;
+	color: white;
+}
 
 .sm-links {
   display: -webkit-box;
@@ -302,6 +314,9 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   font-size: 1rem;
+	position: absolute;
+	bottom: 120px;
+	z-index: 120;
 }
 
 .sm-links a:nth-child(even) {
@@ -313,6 +328,34 @@ a {
 .sm-links a {
 	margin-right: 10px;
 }
+
+.nav2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 11px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 1rem;
+	bottom: 120px;
+	z-index: 120;
+	display:none;
+}
+
+.nav2 a:nth-child(even) {
+	-webkit-text-stroke: 0.5px white;
+	color: rgba(0,0,0,0.00)
+
+}
+
+.nav2 a {
+	margin-right: 10px;
+}
 .bottombar-link {
   padding-bottom: 5px;
   color: #000;
@@ -322,3 +365,54 @@ a {
   font-size: 1rem;
 }
 
+@media (max-width: 700px) {
+	
+    .heading {
+      font-size: 1rem;
+		line-height: 1.5rem;
+	} 
+	
+	.header {
+		height: 100px;
+		margin-top: 25px;
+
+	}
+	
+	.container {
+		width: 90%;
+	}
+	
+	
+	#video-wrapper video {
+		height: 100vh;
+    max-width: 80%;
+	}
+	.sm-links {
+	flex-wrap: wrap;
+  margin-top: 11px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 1rem;
+		  flex: 2;
+		justify-content: center;
+
+	}
+	
+	.navlink {display:none;}
+	.parallax-container {
+		padding-bottom: 12rem;
+}
+	.container video {
+		display: block;
+		width: 100%;
+	}
+.nav2 {
+	display:block;
+}
+	.header p { 
+	display: none;}
+}

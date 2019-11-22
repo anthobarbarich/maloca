@@ -45,12 +45,9 @@ a {
   color: #fff;
   text-decoration: none;
 }
+
+
 /*3D PARA*/
-body {
-  color: #181818;
-  font-family: monospace, monospace;
-  font-size: 10em
-}
 
 .parallax-base div {
   opacity: 1;
@@ -75,14 +72,19 @@ body {
 
 .layer-1 {
   position: absolute;
-  -webkit-transform: translateZ(25px);
-  -moz-transform: translateZ(25px);
+  -webkit-transform: translateZ(100px);
+  -moz-transform: translateZ(100px);
 }
 
+/*
 .layer-2 {
   position: absolute;
   -webkit-transform: translateZ(80px);
   -moz-transform: translateZ(80px);
+
+}
+.layer-2 video{
+	opacity: 0.9;
 }
 
 .layer-3 {
@@ -90,6 +92,7 @@ body {
   -webkit-transform: translateZ(150px);
   -moz-transform: translateZ(150px);
 }
+*/
 
 #video-wrapper {
 	text-align: center;

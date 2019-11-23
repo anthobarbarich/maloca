@@ -1,8 +1,8 @@
 baseURL = "https://malocarecords.com"
 languageCode = "en-US"
-title = "MALOCA Records"
+title = "MALOCA Records | Record label from Brussels"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-    description = "Record label from Belgium"
-    author = "Studio Colibri"
+    description = "Worldwide community and electronic music record label based in Brussels. More info soon!"
+    author = "Le Motel"

@@ -51,8 +51,22 @@ src="https://www.facebook.com/tr?id=748141279021465&ev=PageView
 <!-- End Facebook Pixel Code -->
 </head>
 <body class="body">
-<main>
-{{ block "main" . }}{{ end }}</main>
-{{ partial "scripts.html"}}
+	{{ if .IsHome }}
+	
+	<main>
+		{{ block "main" . }}{{ end }}
+		{{ partial "scripts.html"}}
+	</main>
+
+		{{ else if eq .Section "releases" }}
+
+	<div style="overflow-x: hidden; position: relative;">
+	<main>
+		{{ block "main" . }}{{ end }}
+		{{ partial "scripts.html"}}
+	</main>
+	</div>
+	{{end}}
+	
 </body>
 </html>

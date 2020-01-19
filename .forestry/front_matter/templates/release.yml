@@ -2,11 +2,21 @@
 label: release
 hide_body: false
 fields:
+- name: artist
+  type: text
+  config:
+    required: false
+  label: Artist
 - name: title
   type: text
   config:
     required: false
   label: Title
+- name: ref
+  type: text
+  config:
+    required: false
+  label: REF
 - name: description
   type: textarea
   default: ''

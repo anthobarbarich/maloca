@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: releases
+  path: content/releases/*
   label: Releases
-  match: "**/*"
 - type: directory
   path: content
   label: Pages

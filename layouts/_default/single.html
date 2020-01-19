@@ -10,14 +10,14 @@
 <section class="content">
 	<div class="container flex">
 				<div class="block-50">
-<img src="{{ $.Site.Params.cloudinary_url }}/w_500,h_500{{.Params.frontcover}}" width="500"><br><br>
-					{{ range .Params.gallery }}<img src="{{ $.Site.Params.cloudinary_url }}/w_500,h_500{{.}}" class="backimg" width="500">{{end}}
+<img src="{{ $.Site.Params.cloudinary_url }}/w_1000,h_1000{{.Params.frontcover}}" width="1000"><br><br>
+					{{ range .Params.gallery }}<img src="{{ $.Site.Params.cloudinary_url }}/w_1000,h_1000{{.}}" class="backimg" width="1000">{{end}}
 		</div>
 		<div class="block-50"><span class="ref">{{.Params.ref}}</span>
 <h1 class="title">{{.Params.artist}} - {{.Params.title}}</h1><br>
 			<div class="desc">{{.Params.description | markdownify}}</div><br><br>
 			<a class="btn" href="http://hyperurl.co/transiro" target="_blank">Buy / Listen</a><br><br><br><br>
-			{{ range .Params.gallery }}<img src="{{ $.Site.Params.cloudinary_url }}/w_500,h_500{{.}}" class="backimgmobile" width="500">{{end}}
+			{{ range .Params.gallery }}<img src="{{ $.Site.Params.cloudinary_url }}/w_1000,h_1000{{.}}" class="backimgmobile" width="1000">{{end}}
 		</div>
 
 	</div>

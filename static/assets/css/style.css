@@ -489,4 +489,8 @@ footer {
 	
 	.backimg {display: none;}
 	.backimgmobile {display: block;}
+	.marquee {
+
+	top: 340px;
+}
 }

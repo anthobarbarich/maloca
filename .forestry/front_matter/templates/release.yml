@@ -25,3 +25,5 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
+pages:
+- content/releases/mlc-001.md

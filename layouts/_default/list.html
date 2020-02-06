@@ -6,22 +6,26 @@
 <p class="marquee marquee2"> <span>{{.Params.ref}} - {{.Params.artist}} - {{.Params.title}} - MALOCA RECORDS - OUT NOW -
 		{{.Params.ref}} - {{.Params.artist}} - {{.Params.title}} - MALOCA RECORDS - OUT NOW -&nbsp;</span> </p>
 <section class="content">
-	
+
 	<div class="container flex" id="nowrapping">
 		{{ range .Pages }}
 		<div class="columnsthree">
-			<div class="block-50 largewidth">
-				<img srcset=""
-					src="https://res.cloudinary.com/dbftnu0ia/image/upload/w_1000/q_auto/v1579439498/Transiro_cover_A_fks6pl.jpg" />
-				<br>
-				<br>
-			</div>
-			<div class="block-50 nopadding">
-				<span class="ref">{{.Params.ref}}</span>
-				<h1 class="title">{{.Params.artist}} - {{.Params.title}}</h1>
-				<a href="{{.Permalink}}" class="bottombar-link seemore" style="color:white" target="_blank">SEE MORE</a>
-			</div>
-		</div s>
+			<a href="{{.Permalink}}">
+				<div class="block-50 largewidth">
+
+					<img srcset=""
+						src="https://res.cloudinary.com/dbftnu0ia/image/upload/w_1000/q_auto/v1579439498/Transiro_cover_A_fks6pl.jpg" />
+					<br>
+					<br>
+				</div>
+				<div class="block-50 nopadding">
+					<span class="ref">{{.Params.ref}}</span>
+					<h1 class="title">{{.Params.artist}} - {{.Params.title}}</h1>
+					<a href="{{.Permalink}}" class="bottombar-link seemore" style="color:white" target="_blank">SEE
+						MORE</a>
+				</div>
+			</a>
+		</div>
 
 		{{ end }}
 </section>

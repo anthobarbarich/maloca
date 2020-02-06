@@ -360,7 +360,18 @@ section.content {
 	text-align: left;
 	padding: 20px;
 }
-
+.columnsthree{
+	width: 30%;
+}
+.largewidth{
+	width:100%;
+}
+#nowrapping{
+	display: inline-flex;
+}
+.nopadding {
+	width:100%;
+}
 .flex {
 	display: flex;
 	flex-wrap: wrap;
@@ -492,6 +503,16 @@ height: 65px;
 	.block-50 {
 		width: 100%;
 	}
+	.nopadding {
+		padding: 0px 20px 20px 20px;
+	}
+	.seemore{
+		color: white;
+    text-decoration: solid;
+	}
+	.columnsthree{
+		width:100%;
+	}
 	
 	.backimg {display: none;}
 	.backimgmobile {display: block;}
@@ -500,3 +521,11 @@ height: 65px;
 	top: 340px;
 }
 }
+@media (max-width: 1200px) {
+	.columnsthree{
+		width: 80%;
+    MARGIN: auto;
+	}
+	
+}
+

@@ -19,8 +19,6 @@
 		<div class="block-50"><span class="ref">{{.Params.ref}}</span>
 			<h1 class="title">{{.Params.artist}} - {{.Params.title}}</h1>
 			<br>
-			<div class="desc">{{.Params.description | markdownify}}</div>
-			<br>
 			<br>
 			<h3>Buy / Listen</h3>
 			<br>
@@ -133,6 +131,10 @@
 					</g>
 				</svg>
 			</a> <br>
+			<br><br>
+			<div class="desc">{{.Params.description | markdownify}}</div>
+			<br>
+
 			<br>
 			<br>
 			{{ range .Params.gallery }}<img

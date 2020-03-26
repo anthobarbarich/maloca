@@ -198,15 +198,15 @@ img { max-width: 100%;}
 	font-size: 1.1rem;
 	text-align: center;
 }
-/*.left-link:hover::before {
-	content: "MLC001";
+.left-link:hover::before {
+	content: "out now";
 	position: absolute;
-	top: 2px;
+	top: 0px;
 	width: 180px;
-	left: -18px;
+	left: -25px;
 	background-color: black;
 	z-index: 2;
-}*/
+}
 .navlink {
 	    top: 50%;
     transform: translateY(-50%);

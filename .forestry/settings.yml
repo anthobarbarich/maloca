@@ -15,7 +15,7 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "*"
+  match: "*/**"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''

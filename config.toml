@@ -1,4 +1,3 @@
-baseURL = "https://malocarecords.com"
 languageCode = "en-US"
 title = "Maloca Records | Record label from Brussels run by Le Motel"
 disableKinds = ["taxonomy", "taxonomyTerm"]

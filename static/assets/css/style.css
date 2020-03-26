@@ -198,7 +198,7 @@ img { max-width: 100%;}
 	font-size: 1.1rem;
 	text-align: center;
 }
-.left-link:hover::before {
+/*.left-link:hover::before {
 	content: "MLC001";
 	position: absolute;
 	top: 2px;
@@ -206,7 +206,7 @@ img { max-width: 100%;}
 	left: -18px;
 	background-color: black;
 	z-index: 2;
-}
+}*/
 .navlink {
 	    top: 50%;
     transform: translateY(-50%);
@@ -360,11 +360,16 @@ section.content {
 	text-align: left;
 	padding: 20px;
 }
+
+.block-30 {
+	width: 42%;
+	text-align: left;
+	padding: 20px;
+}
 .columnsthree{
-	width: 30%;
 }
 .largewidth{
-	width:100%;
+
 }
 #nowrapping{
 	display: inline-flex;
@@ -375,6 +380,7 @@ section.content {
 .flex {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .desc p {
@@ -390,7 +396,18 @@ section.content {
 
 h1.title {
 	font-size: 1.5em;
-	line-height: 1.5em;
+	line-height: 1.2em;
+	margin-top: 10px;
+}
+
+article h1.title {
+	font-size: 1.2em;
+		line-height: 1.2em;
+	margin-top: 0.2em;
+
+}
+article .ref {
+	font-size: 1.2em;
 }
 
 .ref {-webkit-text-stroke: 0.5px white;
@@ -523,6 +540,12 @@ footer {
 	.marquee {
 
 	top: 340px;
+}
+	
+	.block-30 {
+	width: 100%;
+	text-align: left;
+	padding: 20px;
 }
 }
 @media (max-width: 1200px) {

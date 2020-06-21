@@ -11,8 +11,8 @@
 		{{ range .Pages }}
 		<article  class="block-30">
 			<a href="{{.Permalink}}">
-				
-					<img src="https://res.cloudinary.com/dbftnu0ia/image/upload/w_1000/q_auto/v1579439498/Transiro_cover_A_fks6pl.jpg" />
+							<img srcset="{{ $.Site.Params.cloudinary_url }}/w_490/q_auto{{.Params.frontcover}} 1x, {{ $.Site.Params.cloudinary_url }}/w_1000/q_auto{{.Params.frontcover}} 2x"
+				src="{{ $.Site.Params.cloudinary_url }}/w_490/q_auto{{.Params.frontcover}}"  width="1000">
 					<br>
 					<br>
 			

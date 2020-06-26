@@ -8,7 +8,7 @@ gallery = ["/v1592742759/MLC002_cover_B_f9msnb.jpg"]
 itunes = "https://music.apple.com/us/album/not-here-but-somewhere-ep/1516813797?uo=4&app=itunes&at=1001lry3&ct=dashboard"
 ref = "MLC002"
 soundcloud = "https://soundcloud.com/malocarecords"
-spotify = ""
+spotify = "https://open.spotify.com/album/6adjkA4a7mZBG8nT9Z8gIx?si=8K4_YzrVTiaGhUhkQN-Xzg"
 title = "Not Here, But Somewhere"
 
 +++

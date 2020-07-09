@@ -144,6 +144,7 @@
 			{{ range .Params.gallery }}<img
 				srcset="{{ $.Site.Params.cloudinary_url }}/w_490/q_auto{{.}} 1x, {{ $.Site.Params.cloudinary_url }}/w_1000/q_auto{{.}} 2x"
 				src="{{ $.Site.Params.cloudinary_url }}/w_490/q_auto{{.}}" class="backimgmobile" width="1000">{{end}}
+			<br><br>
 			<a href="/releases">← Back to list</a>
 		</div>
 	</div>

@@ -61,6 +61,7 @@ fields:
     required: false
   label: SoundCloud Link
 pages:
+- content/releases/Howie Lee.md
 - content/releases/mlc-001.md
 - content/releases/mlc-001.md
 - content/releases/mlc-001.md

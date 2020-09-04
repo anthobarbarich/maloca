@@ -7,7 +7,7 @@ frontcover = "/v1596531367/MLC003_cover_A_afvzfi.jpg"
 gallery = ["/v1596531565/MLC003_cover_B_xbofda.jpg"]
 itunes = "https://music.apple.com/be/album/7-weapons-series/1525470576?l=fr"
 ref = "MLC003"
-soundcloud = "https://maloca.bandcamp.com/album/7-weapons-series"
+soundcloud = "https://soundcloud.com/malocarecords/sets/howie-lee-7-weapons-series"
 spotify = "https://open.spotify.com/album/273jBFwn0Zf8d5LLuF2Nhz?si=c5tzLOq3TjmI1Opqe9mwDA"
 title = "7 Weapons Series"
 

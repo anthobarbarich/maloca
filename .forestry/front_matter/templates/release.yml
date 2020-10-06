@@ -60,6 +60,16 @@ fields:
   config:
     required: false
   label: SoundCloud Link
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 pages:
 - content/releases/Howie Lee.md
 - content/releases/maloca-vol.1.md

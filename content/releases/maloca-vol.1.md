@@ -8,7 +8,7 @@ frontcover = "/v1601993225/Compilation_cover_final-01_thj4rc.jpg"
 gallery = ["/v1601996065/Compilation_cover_final-02_bm4ai0.jpg"]
 itunes = "http://itunes.apple.com/album/id1538622461?ls=1&app=itunes"
 ref = "MLC004"
-soundcloud = "https://soundcloud.com/malocarecords"
+soundcloud = "https://soundcloud.com/malocarecords/sets/maloca-vol1"
 spotify = "https://open.spotify.com/album/4B6qj7XT6Jriju3MlsQWHb?si=cKG4X9JqROC_1CSXzcSqjw"
 title = "Maloca, Vol. 1"
 

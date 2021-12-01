@@ -72,7 +72,6 @@ fields:
   default: now
 pages:
 - content/releases/Howie Lee.md
-- content/releases/art-is-talking-1.md
 - content/releases/art-is-talking.md
 - content/releases/maloca-vol.1.md
 - content/releases/mlc-001.md

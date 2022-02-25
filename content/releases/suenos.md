@@ -8,7 +8,7 @@ frontcover = "/v1643217250/Le_Motel_-_Sue%C3%B1os_-_Artwork_by_Lou_Buche_ygxs8l.
 gallery = ["/v1643217288/Sue%C3%B1os_72_dpi-02_trw9tr.jpg"]
 itunes = "https://music.apple.com/be/album/sue%C3%B1os-ep/1607068449?l=fr"
 ref = "MLC006"
-soundcloud = "https://maloca.bandcamp.com/album/sue-os"
+soundcloud = "https://soundcloud.com/malocarecords"
 spotify = "https://open.spotify.com/album/45K8yi6u96q7QOyQsD4Xdd?si=hUoua_75TMCtJKUcQGk4Hg"
 title = "Sueños"
 

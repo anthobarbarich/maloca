@@ -1,5 +1,5 @@
 +++
-apple = "https://music.apple.com/be/album/kindness-weakness-ep/1664796983?l=fr"
+apple = "https://music.apple.com/us/album/kindness-weakness-ep/1664796983"
 artist = "Magugu x Le Motel "
 bandcamp = "https://maloca.bandcamp.com/album/kindness-weakness"
 date = 2023-01-16T07:55:00Z
@@ -8,8 +8,8 @@ frontcover = "/v1674030590/Magugu_x_Le_Motel_-_Kindness_Weakness_uibcoa.jpg"
 gallery = []
 itunes = "https://music.apple.com/be/album/kindness-weakness-ep/1664796983?l=fr"
 ref = "MLC009"
-soundcloud = "https://soundcloud.com/malocarecords/on-topper"
-spotify = "https://open.spotify.com/album/7y0mI06aA4PJEVY3LQSUmg?si=biynWtTMQri9-aaNO8tosg"
+soundcloud = "https://soundcloud.com/malocarecords/sets/magugu-x-le-motel-kindness-weakness"
+spotify = "https://open.spotify.com/album/7j6z4PXZjJMgOZ8mKekptG?si=eXOmjs3XRJKbvYr_CbBNqg"
 title = "Kindness Weakness"
 
 +++

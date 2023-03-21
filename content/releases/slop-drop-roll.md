@@ -8,8 +8,8 @@ frontcover = "/v1676930879/Coen_-_Slop_Drop_Roll_tlfyon.jpg"
 gallery = []
 itunes = "https://music.apple.com/us/album/1671753439?app=music&at=11lcsB&ct=LFV_7dac471e55a49841ed0cb102c9a025d8&itscg=30440&itsct=catchall_p3&lId=28318580&cId=none&sr=3&src=Linkfire&ls=1&email_capture=dismissed"
 ref = "MLC010"
-soundcloud = "https://soundcloud.com/malocarecords/coen-tama"
-spotify = "https://accounts.spotify.com/authorize?response_type=code&client_id=5a14783d79444ee9babd9176b256979e&scope=user-follow-modify+user-library-modify+playlist-modify-public+playlist-modify-private+user-read-email+user-read-private&redirect_uri=https%3A%2F%2Flnk.to%2F%7E%2Fprerelease%2Fspotify&state=bFVybD1NYWxvY2EubG5rLnRvJTJGU2xvcERyb3BhbmRSb2xsJnNJZD1mMGViOTY1NS1iMWRlLTQ5YTYtYjg4ZC03ZmU0YWUxMWFhNTUmdElkPTFjYmIxYzU2LTNlOTYtNDY1Mi1hOTU2LTliZDVjMTQyNjkzNSZ1PWh0dHBzJTNBJTJGJTJGbWFsb2NhLmxuay50byUyRlNsb3BEcm9wYW5kUm9sbCUzRmVtYWlsX2NhcHR1cmUlM0RkaXNtaXNzZWQmdnQ9N2RhYzQ3MWU1NWE0OTg0MWVkMGNiMTAyYzlhMDI1ZDgmdnU9NjNmNGNlOTE5M2M5ZTkuMjU4NTM2ODE%3D&email_capture=dismissed"
+soundcloud = "https://soundcloud.com/malocarecords/sets/coen-slop-drop-roll"
+spotify = "https://open.spotify.com/album/2qaK6jQ3SE1Pj0LzwWDhQP?email_capture=dismissed&referral=labelaffiliate&utm_source=1101lwDgG4kQ&utm_medium=Merlin_k7music&utm_campaign=labelaffiliate"
 title = "Slop, Drop & Roll"
 
 +++
